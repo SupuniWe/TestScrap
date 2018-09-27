@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Scrap Wrap</string>
+    <string name="action_settings">Settings</string>
+    <string name="btn_check_photo">Check Scraps</string>
+    <string name="btn_clean_check">Verify</string>
+    <string name="verified">Verified</string>
+    <string name="to_be_verified">To be verified</string>
+    <string name="photo_verify_label">Photo Verify :</string>
+    <string name="community_verify_label">Community Verify :</string>
+    <string name="service_not_available">Service not available</string>
+    <string name="btn_open_map">Open Map</string>
+    <string name="btn_choose_gallery">Choose Image</string>
+    <string name="format_post_list_published_by">Published By : %1$s</string>
+    <string name="format_post_list_verified_by">Verified By : %1$s</string>
+</resources>

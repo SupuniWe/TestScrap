@@ -1,0 +1,8 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="layout_margin">10dp</dimen>
+    <dimen name="margin_layout_inner">5dp</dimen>
+    <dimen name="text_size_name">20sp</dimen>
+    <dimen name="text_size_details">18sp</dimen>
+    <dimen name="text_input_distance">5dp</dimen>
+</resources>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "777296582423",
+    "firebase_url": "https://srapwrap.firebaseio.com",
+    "project_id": "srapwrap",
+    "storage_bucket": "srapwrap.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:777296582423:android:c97bc1a2bf1a3cb3",
+        "android_client_info": {
+          "package_name": "lk.supuni.srapwrap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "777296582423-suovvk7g57fui5ic4896r0626560n2kk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "lk.supuni.srapwrap",
+            "certificate_hash": "50b450f67264ebf731a5163f6824e36b57365a2a"
+          }
+        },
+        {
+          "client_id": "777296582423-h1ctlb8600iutgh25tpmgjfnroq5ok5l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4S2rdJ0H000I6urKNlFoo_qJFDiDQmW4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "777296582423-h1ctlb8600iutgh25tpmgjfnroq5ok5l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

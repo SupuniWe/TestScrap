@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/layout_margin"
+    android:orientation="vertical"
+    tools:context="lk.supuni.scrapwrap.AddPostActivity">
+
+    <ImageView
+        android:id="@+id/imgBtnAddPostImage"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:src="@drawable/ic_camera_alt_black_24dp" />
+
+
+    <Button
+        android:id="@+id/btnAddPostChooseGallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_choose_gallery"
+        android:textColor="@android:color/white"
+        android:theme="@style/Widget.Design.FloatingActionButton" />
+ <Button
+        android:id="@+id/btnAddPostCheckImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_check_photo"
+        android:textColor="@android:color/white"
+        android:theme="@style/Widget.Design.FloatingActionButton" />
+
+    <TextView
+        android:id="@+id/txtAddPostImageDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/text_input_distance"
+        android:textSize="@dimen/text_size_details" />
+
+
+</LinearLayout>

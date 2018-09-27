@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/layout_margin"
+    android:orientation="vertical"
+    tools:context="lk.supuni.scrapwrap.CleanActivity">
+
+    <Button
+        android:id="@+id/btnCleanOpenMap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_open_map"
+        android:textColor="@android:color/white"
+        android:theme="@style/Widget.Design.FloatingActionButton" />
+
+    <ImageView
+        android:id="@+id/imgBtnCleanImage"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:src="@drawable/ic_camera_alt_black_24dp" />
+
+    <Button
+        android:id="@+id/btnCleanChooseGallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_choose_gallery"
+        android:textColor="@android:color/white"
+        android:theme="@style/Widget.Design.FloatingActionButton" />
+
+    <Button
+        android:id="@+id/btnCleanCheckImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_clean_check"
+        android:textColor="@android:color/white"
+        android:theme="@style/Widget.Design.FloatingActionButton" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_layout_inner"
+        android:orientation="vertical">
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="1"-->
+        <!--android:text="@string/photo_verify_label"-->
+        <!--android:textSize="@dimen/text_size_details" />-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/txtCleanPhotoVerify"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="@dimen/text_input_distance"-->
+        <!--android:layout_weight="1"-->
+        <!--android:text="@string/verified"-->
+        <!--android:textSize="@dimen/text_size_details" />-->
+        <!--</LinearLayout>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/text_input_distance">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/community_verify_label"
+                android:textSize="@dimen/text_size_details" />
+
+            <TextView
+                android:id="@+id/txtCleanCommunityVerify"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/to_be_verified"
+                android:textSize="@dimen/text_size_details" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
